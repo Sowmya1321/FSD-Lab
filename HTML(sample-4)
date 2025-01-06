@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+       !DOCTYPE html>
 <html lang = "en">
     <head>
         <title>Thumbnail Images with Links</title>
@@ -7,18 +7,24 @@
                 font-family: Arial,sans-serif;
                 margin: 0;
                 padding: 0;
-                background-color: #227a22;
+                background-color:#FFFFFF;
             }
             h1 {
                 text-align: center;
                 margin-top: 20px;
             }
-            gallery a {
+            .gallery {
+                display: flex;
+                flex-wrap:wrap;
+                gap: 10px;
+                padding: 20px;
+            }
+            .gallery a {
                 text-decoration: none;
             }    
-            gallery img {
-                width: 200px;
-                height: 200px;
+            .gallery img {
+                width: 20px;
+                height: 20px;
                 object-fit:cover;
                 border: 2px solid black;
                 border-radius: 8px;
