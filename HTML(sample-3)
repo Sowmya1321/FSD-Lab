@@ -28,14 +28,14 @@
 
     <div class="profile">
         <a href="https://yourprofile.example.com" target="_blank">
-            <img src="your-image.jpg" alt="Your Image">
+            <img src="/home/vitcse/Pictures/dore.png" alt="Your Image">
         </a>
         <p><a href="https://yourprofile.example.com" target="_blank">Your Profile</a></p>
     </div>
 
     <div class="profile">
         <a href="https://friendprofile.example.com" target="_blank">
-            <img src="friend-image.jpg" alt="Friend's Image">
+            <img src="/home/vitcse/Pictures/nobi.jpeg" alt="Friend's Image">
         </a>
         <p><a href="https://friendprofile.example.com" target="_blank">Friend's Profile</a></p>
     </div>
