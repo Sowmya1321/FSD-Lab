@@ -1,4 +1,4 @@
-       !DOCTYPE html>
+<!DOCTYPE html>
 <html lang = "en">
     <head>
         <title>Thumbnail Images with Links</title>
@@ -23,8 +23,8 @@
                 text-decoration: none;
             }    
             .gallery img {
-                width: 20px;
-                height: 20px;
+                width: 100px;
+                height: 100px;
                 object-fit:cover;
                 border: 2px solid black;
                 border-radius: 8px;
