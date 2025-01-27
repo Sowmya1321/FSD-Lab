@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    table 
+    {
+        width:100%;
+        border-collapse:collapse;
+        margin-bottom:20px;
+        border-spacing:5px;
+    }
+    th,td 
+    {
+        border:1px solid #333;
+        padding:10px;
+        text-align:center;
+    }
+    th 
+    {
+        background-color:#f4f4f4;
+    }
+</style>
+<h1>HTML TimeTable</h1>
+<table border = "1" cellpadding="10" cellspacing="5">
+    <caption>
+        <b>Class TimeTable</b>
+    </caption>
+    <table>
+        <tr>
+            <th>period</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+            <th rowspan="2"> 12:40PM-1:40PM </th>
+        </tr>
+        <tr>
+            <th>Day/Time</th>
+            <th>9:00AM-9:50AM</th>
+            <th>9:50AM-10:40AM</th>
+            <th>11:00AM-11:50AM</th>
+            <th>11:50AM-12:40PM</th>
+            <th>1:40PM-2:30PM</th>
+            <th>2:30PM-3:20PM</th>
+            <th>3:20PM-4:10PM</th>
+            <th>4:10PM-5:00PM</th>
+        </tr>
+        <tr>
+            <th>MON</th>
+            <td>SE</td>
+            <td>ADSAA</td>
+            <td>MEFA</td>
+            <td>OS</td>
+            <th rowspan="6">LUNCH</th>
+            <td colspan="3">II CSE C-FSD</td>
+            <td>CRT</td>
+        </tr>
+        <tr>     
+            <th>TUE</th>
+            <th colspan="2">II CSE C-DT&I</td>
+            <td>ADSAA</td>
+            <td>P&S</td>
+            <td>MEFA</td>
+            <td>OS</td>
+            <td>SE</td>
+        </tr>
+    </table>
+</html>        
