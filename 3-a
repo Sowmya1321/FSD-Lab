@@ -8,7 +8,6 @@
         }
         header {
             background-color: #007BFF;
-            color: white;
             padding: 20px;
             text-align: center;
         }
@@ -19,7 +18,6 @@
         }
         nav a {
             margin: 0 15px;
-            text-decoration: none;
             color: #333;
         }
         main {
@@ -76,7 +74,7 @@
             Learn more about our journey and values. Here is a word with a <span class="highlight">highlight</span> effect.
         </p>
         <figure>
-            <img src="/home/vitcse/Pictures/3a Sample Output.jpg" alt="Example Image" style="width:100%; max-width:400px;">
+            <img src="/home/vitcse/Pictures/2d Sample Output.jpg" alt="Example Image" style="width:100%; max-width:400px;">
             <figcaption>Our Team at Work</figcaption>
         </figure>
     </article>
