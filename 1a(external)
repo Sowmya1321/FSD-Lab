@@ -1,0 +1,37 @@
+import React, { useState } from "react";
+
+// Child component using props
+function Greeting(props) {
+  return <h2 style={{ color: "blue" }}>Hello, {props.name}!</h2>;
+}
+
+function App() {
+  const [count, setCount] = useState(0); // state variable
+
+  // inline style object
+  const btnStyle = {
+    padding: "10px 20px", 
+    backgroundColor: "green",
+    color: "white",
+    border: "none",
+    borderRadius: "5px",
+    cursor: "pointer",
+  };
+
+  // event handler
+  const handleClick = () => {
+    setCount(count + 1);
+  };
+
+  return (
+    <div style={{ textAlign: "center", marginTop: "50px" }}>
+      <Greeting name="your name" /> {/* using props */}
+      <p>You clicked {count} times</p>
+      <button style={btnStyle} onClick={handleClick}>
+        Click Me
+      </button>
+    </div>
+  );
+}
+
+export default App;
