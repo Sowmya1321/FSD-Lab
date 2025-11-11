@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+  </head>
+  <body>
+    <h1><%= message %></h1>
+    <p>This page is rendered using the <b>EJS</b> templating engine.</p>
+  </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+  </head>
+  <body>
+    <h1><%= message %></h1>
+    <p>This page is rendered using the <b>EJS</b> templating engine.</p>
+  </body>
+</html>
